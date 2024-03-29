@@ -1,0 +1,65 @@
+/* Body Styling */
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    width: 50%;
+    min-width: 400px; /* Added "px" unit */
+    max-width: 700px; /* Added "px" unit */
+    margin:0 auto;
+}
+
+.freecodecamp-logo {
+    max-width: 70%; /* Changed class name to match "from-html" */
+}
+
+/* Container Styling */
+.container, .palindrome-div {
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    
+}
+
+
+.palindrome-div{
+    
+    background-color: #333;
+
+}
+/* Heading Styling */
+.title {
+    color: #ffcc00; /* Yellow color for the heading */
+}
+
+/* Input and Button Styling */
+label, input.palindrome-input, button.palindrome-btn {
+    margin-bottom: 10px;
+    display: block;
+}
+
+input.palindrome-input, button.palindrome-btn {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button.palindrome-btn {
+    background-color: #4CAF50; /* Green color for the button */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.palindrome-btn:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
