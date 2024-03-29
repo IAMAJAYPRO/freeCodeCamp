@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Park Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Park Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve.</p>
+  <main>
+    <form method="POST" id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your Email" required>
+
+      <label for="number" id="number-label">Age</label>
+      <input type="number" id="number" placeholder="Enter your age" required min="10" max="120">
+
+      <label for="dropdown" id="dropdown-label">Rate out of 5</label>
+      <select id="dropdown">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <label for="feedback" id="feedback-label">Feedback</label>
+      <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter your feedback here"></textarea>
+
+      <div>
+        <label for="liked" id="liked-label"><input type="radio" id="liked" value="liked" name="love">Liked it</label>
+        <label for="disliked" id="disliked-label"><input type="radio" id="disliked" value="disliked" name="love">Disliked it</label>
+      </div>
+
+      <fieldset>
+        <legend>Improvements</legend>
+        <label for="trees" id="trees-label"><input type="checkbox" id="trees" name="park_features" value="trees">Trees</label>
+        <label for="benches" id="benches-label"><input type="checkbox" id="benches" name="park_features" value="benches">Benches</label>
+        <label for="playground" id="playground-label"><input type="checkbox" id="playground" name="park_features" value="playground">Playground</label>
+        <label for="picnic_area" id="picnic_area-label"><input type="checkbox" id="picnic_area" name="park_features" value="picnic_area">Picnic Area</label>
+        <label for="walking_paths" id="walking_paths-label"><input type="checkbox" id="walking_paths" name="park_features" value="walking_paths">Walking Paths</label>
+      </fieldset>
+
+      <button id="submit" type="submit">Done!</button>
+    </form>
+  </main>
+</body>
+</html>
