@@ -4,7 +4,7 @@ This repository hosts my responsive web design projects completed as part of the
 
 ### 1. Survey Form
 
-[View Survey Form](Survey%20Form) | [Code](survey-form)
+[View Survey Form](Survey%20Form)
 
 Description: The survey form project demonstrates form-building skills using HTML and CSS.
 
