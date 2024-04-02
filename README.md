@@ -9,9 +9,9 @@ This repository hosts my projects completed as part of the FreeCodeCamp curricul
 
 ### For Hosted Projects:  
 
-- [Responsive Web Design Projects](https://iamajaypro.github.io/freeCodeCamp/Responsive%20Web%20Design)
+- [Responsive Web Design Projects](https://iamajaypro.github.io/freeCodeCamp/Responsive%20Web%20Design){:target="_blank"}
 
-- [JavaScript](https://iamajaypro.github.io/freeCodeCamp/JavaScript)
+- [JavaScript](https://iamajaypro.github.io/freeCodeCamp/JavaScript){:target="_blank"}
 
 
 ![FreeCodeCamp Support Bear](https://www.freecodecamp.org/static/supporter-bear-e0a35f40fb0f8d5c70a63f40f953d726.svg)
