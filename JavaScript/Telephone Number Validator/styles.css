@@ -2,7 +2,8 @@ body {
   max-width:400px;
   min-width:300px;
   font-family: Arial, sans-serif;
-  background-color: #3b3b4f;
+  --body-bg-color:#3b3b4f;
+  background-color: var(--body-bg-color);;
   margin: 0 auto;
   padding: 0;
   
@@ -123,3 +124,7 @@ cursor: not-allowed;
 width: calc(100% - 10px);
 }
 
+footer{
+  text-align:center;
+  color:var(--body-bg-color);
+}
