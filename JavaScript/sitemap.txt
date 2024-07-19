@@ -1,0 +1,3 @@
+https://iamajaypro.github.io/freeCodeCamp/JavaScript/Palindrome%20Checker/
+https://iamajaypro.github.io/freeCodeCamp/JavaScript/Roman%20Numeral%20Converter/
+https://iamajaypro.github.io/freeCodeCamp/JavaScript/Telephone%20Number%20Validator/
